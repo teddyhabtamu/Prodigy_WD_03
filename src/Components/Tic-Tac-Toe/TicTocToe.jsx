@@ -32,7 +32,7 @@ export const TicTocToe = () => {
       e.target.innerHTML = `<img src="${circle_icon}" />`;
       data[num] = "o";
       setCount(++count);
-      titleRef.current.innerHTML = `<img src="${circle_icon}"> turn`;
+      titleRef.current.innerHTML = `<img src="${cross_icon}"> turn`;
     }
     checkWin();
   }
